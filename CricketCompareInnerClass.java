@@ -33,7 +33,18 @@ class Cricketer {
 	}
 }
 
-class Alpha implements Comparator{
+
+	
+public class CricketCompareTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cricketer c1 = new Cricketer("Dhoni",15000, 45.5f);
+		Cricketer c2 = new Cricketer("Virat",19000, 55.5f);
+		Cricketer c3 = new Cricketer("Adam Gilchrist",13000, 35.5f);
+		
+		class Alpha implements Comparator{
 	
 	public int compare(Object x, Object y) {
 		
@@ -48,15 +59,6 @@ class Alpha implements Comparator{
 		
 	}
 }
-	
-public class CricketCompareTwo {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Cricketer c1 = new Cricketer("Dhoni",15000, 45.5f);
-		Cricketer c2 = new Cricketer("Virat",19000, 55.5f);
-		Cricketer c3 = new Cricketer("Adam Gilchrist",13000, 35.5f);
 		
 		Alpha a = new Alpha();
 		
